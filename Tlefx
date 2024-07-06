@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tlefyx - عرض المنتجات بخيال</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        .container {
+            width: 80%;
+            margin: 2em auto;
+        }
+        .service {
+            background-color: white;
+            padding: 2em;
+            margin-bottom: 2em;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+        }
+        .service img {
+            max-width: 100px;
+            margin-right: 1em;
+        }
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            background-color: #4CAF50;
+            color: white;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Tlefyx</h1>
+    <p>عرض المنتجات بخيال</p>
+</header>
+
+<div class="container">
+    <div class="service">
+        <img src="https://via.placeholder.com/100" alt="خدمة 1">
+        <div>
+            <h2>خدمة عرض المنتج الأساسية</h2>
+            <p>وصف موجز عن خدمة عرض المنتج الأساسية المتاحة.</p>
+        </div>
+    </div>
+    <div class="service">
+        <img src="https://via.placeholder.com/100" alt="خدمة 2">
+        <div>
+            <h2>خدمة عرض المنتج المتقدمة</h2>
+            <p>وصف موجز عن خدمة عرض المنتج المتقدمة مع ميزات إضافية.</p>
+        </div>
+    </div>
+    <div class="service">
+        <img src="https://via.placeholder.com/100" alt="خدمة 3">
+        <div>
+            <h2>خدمة عرض المنتج المخصصة</h2>
+            <p>وصف موجز عن خدمة عرض المنتج المخصصة لتلبية احتياجات خاصة.</p>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Tlefyx. جميع الحقوق محفوظة.</p>
+</footer>
+
+</body>
+</html>
+index.html
